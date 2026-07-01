@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6c0222/v1
+canonical_location: https://kanripo.org/bkk/KR6c0222/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說帝釋般若波羅蜜多心經
+  identifiers:
+    alt_id:
+    - T08n0249
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T08/T08n0249.xml
+    old_id: T08n0249
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0222_000.yaml, hash: 'sha256:ef20c8c0fe1bc8529a7605b897062d1246c7cf0967910f1d06d43efc47aaba0d'}
+  - {seq: 1, filename: KR6c0222_001.yaml, hash: 'sha256:bb8d467c6296c95e41b21a140a208c439c8284e97f88fd37648cb836ca55f22a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0222_001.markers.yaml, hash: 'sha256:958fee4013a35ba7ab2fc4d808bc83e0c442b77da1d7068e821e3f8d8546e7af'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0222_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1649
+  label: 佛說帝釋般若波羅蜜多心經
+  type: juan
+  level: 1
+hash: sha256:e31cb850eae8410c2e3bfdd3cf407a70ba08eb9becb5dcdcec228b2eec1868a2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
