@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6c0222_000.yaml, hash: 'sha256:ef20c8c0fe1bc8529a7605b897062d1246c7cf0967910f1d06d43efc47aaba0d'}
-  - {seq: 1, filename: KR6c0222_001.yaml, hash: 'sha256:bb8d467c6296c95e41b21a140a208c439c8284e97f88fd37648cb836ca55f22a'}
+  - {seq: 1, filename: KR6c0222_001.yaml, hash: 'sha256:57a14379dec7571ead2dd0fa7d55cca89fb6a3a0d8480272abcfa8ff1c95d033'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6c0222_001.markers.yaml, hash: 'sha256:958fee4013a35ba7ab2fc4d808bc83e0c442b77da1d7068e821e3f8d8546e7af'}
+  - {seq: 0, role: markers, filename: assets/KR6c0222_000.markers.yaml, hash: 'sha256:7d2e11967918411baca9d98a413cf612b066b62d53005c6a74d57731fdbe7c27'}
+  - {seq: 1, role: markers, filename: assets/KR6c0222_001.markers.yaml, hash: 'sha256:e1ae445634b9693de09bdd6d2750b71ae50574856ff04b32a6503b9934005a3d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說帝釋般若波羅蜜多心經
   type: juan
   level: 1
-hash: sha256:e31cb850eae8410c2e3bfdd3cf407a70ba08eb9becb5dcdcec228b2eec1868a2
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:59d891a3dc3ec2ad36dda443ae6a09b28a7c3b25c3be8b0605cd8b18740ad665
