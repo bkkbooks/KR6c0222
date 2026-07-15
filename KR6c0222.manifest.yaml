@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6c0222/v1
 canonical_location: https://kanripo.org/bkk/KR6c0222/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說帝釋般若波羅蜜多心經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6c0222_000.yaml, hash: 'sha256:ef20c8c0fe1bc8529a7605b897062d1246c7cf0967910f1d06d43efc47aaba0d'}
-  - {seq: 1, filename: KR6c0222_001.yaml, hash: 'sha256:57a14379dec7571ead2dd0fa7d55cca89fb6a3a0d8480272abcfa8ff1c95d033'}
+  - {seq: 1, filename: KR6c0222_001.yaml, hash: 'sha256:7cfc6a71590a4e401c60a9d98045f27cce0d4445a276e55db6c86dec0adc2fad'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6c0222_000.markers.yaml, hash: 'sha256:7d2e11967918411baca9d98a413cf612b066b62d53005c6a74d57731fdbe7c27'}
-  - {seq: 1, role: markers, filename: assets/KR6c0222_001.markers.yaml, hash: 'sha256:e1ae445634b9693de09bdd6d2750b71ae50574856ff04b32a6503b9934005a3d'}
+  - {seq: 1, role: markers, filename: assets/KR6c0222_001.markers.yaml, hash: 'sha256:32ab3baa9bfc099dc03ab0c9404b8c35ecf3324057b10430201f35fea539a660'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說帝釋般若波羅蜜多心經
   type: juan
   level: 1
-hash: sha256:59d891a3dc3ec2ad36dda443ae6a09b28a7c3b25c3be8b0605cd8b18740ad665
+hash: sha256:e7f030ab8d045696e51261d5855ecdf18f3a035549d5485ee88a546ce8b10e67
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
